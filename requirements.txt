@@ -1,0 +1,5 @@
+gradio==5.23.2
+torch==2.2.1
+requests==2.31.0
+torchvision==0.17.1
+numpy==1.26.4
