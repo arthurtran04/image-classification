@@ -2,6 +2,8 @@
 
 ## Introduction
 
+This repository features an **Image Classification Application** built on the **ResNet-18 model**, leveraging pre-trained weights for efficient and accurate classification. Developed entirely in **Python**, this project highlights the power of transfer learning in simplifying complex image recognition tasks. It's a practical tool for exploring deep learning in image classification!
+
 ## Table of Contents
 
 - [Introduction](#introduction)
