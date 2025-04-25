@@ -1,8 +1,6 @@
-# Image Captioning Application using BLIP model
+# Image Classification Application using pre-trained ResNet-18 model
 
 ## Introduction
-
-This repository showcases an innovative **Image Captioning Application** powered by the **BLIP model** (Bootstrapping Language-Image Pre-training). Built entirely in **Python**, this project demonstrates the fascinating intersection of computer vision and natural language processing by automatically generating descriptive captions for images. Perfect for those interested in exploring multimodal AI applications!
 
 ## Table of Contents
 
@@ -21,12 +19,9 @@ This repository showcases an innovative **Image Captioning Application** powered
 ## Project Structure
 
 ```
-Image-Captioning-App/
-├── test/
-│   ├── test.py
-│   └── ronaldo.jpg
+Image-Classification-App/
 ├── .gitignore
-├── image_captioning_app.py
+├── image_classification.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -34,7 +29,7 @@ Image-Captioning-App/
 
 ## Features
 
-- Image Captioning Application using BLIP model from Hugging Face's Transformers
+- Image Captioning Application using pre-trained ResNet-18 model
 - Using Gradio UI
 
 ## Installation
@@ -44,13 +39,13 @@ To install this project, open your Terminal and follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurtran04/Image-Captioning-App.git
+    git clone https://github.com/arthurtran04/Image-Classification-App.git
     ```
 
-2. Change the directory to `Image-Captioning-App`:
+2. Change the directory to `Image-Classification-App`:
 
     ```bash
-    cd "$(find . -type d -name "Image-Captioning-App")"
+    cd "$(find . -type d -name "Image-Classification-App")"
     ```
 
 3. Create a Python virtual environment `venv` and install the required dependencies:
@@ -63,22 +58,22 @@ To install this project, open your Terminal and follow these steps:
 
 ## Usage
 
-To start the application, run the `image_captioning_app.py` file:
+To start the application, run the `image_classification.py` file:
 
    ```bash
-   python image_captioning_app.py
+   python image_classification.py
    ```
 This application will run locally at `http://127.0.0.1:7860`:
 
-<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/67f66624-ba28-4c98-98f6-dc39f4da8c8c"/>
+<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/c81f14b7-3c18-44ba-97b6-747ab46a476b"/>
 
 The UI:
 
-<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/1fd98fa5-1901-434a-93af-5f1b96c4cf8f"/>
+<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/af441881-7525-4ca1-908d-06180f77a904"/>
 
-Upload your photo in the left box and click **Submit** button, the application will generate the image caption in the right box:
+Upload your photo in the left box and click **Submit** button, The application will generate classifications with percentages of probability of matching your photo in the right box:
 
-<img width="600rem" alt="Example" src="https://github.com/user-attachments/assets/b80dc8d4-c005-49c7-b11c-7cec7f209d6f"/>
+<img width="600rem" alt="Example" src="https://github.com/user-attachments/assets/fa4aebaa-c944-44f8-b513-a4b839bebcda"/>
 
 To stop the application, use `Ctrl + C` in the Terminal
 
