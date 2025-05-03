@@ -21,7 +21,7 @@ This repository features an **Image Classification Application** built on the **
 ## Project Structure
 
 ```
-Image-Classification-App/
+Image-Classification/
 ├── .gitignore
 ├── image_classification.py
 ├── requirements.txt
@@ -41,13 +41,13 @@ To install this project, open your Terminal and follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurtran04/Image-Classification-App.git
+    git clone https://github.com/arthurtran04/Image-Classification.git
     ```
 
-2. Change the directory to `Image-Classification-App`:
+2. Change the directory to `Image-Classification`:
 
     ```bash
-    cd "$(find . -type d -name "Image-Classification-App")"
+    cd "$(find . -type d -name "Image-Classification")"
     ```
 
 3. Create a Python virtual environment `venv` and install the required dependencies:
