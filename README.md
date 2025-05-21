@@ -40,20 +40,20 @@ To install this project, open your Terminal and follow these steps:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/arthurtran04/image-classification.git
+    ```sh
+    $ git clone https://github.com/arthurtran04/image-classification.git
     ```
 
 2. Change the directory to `image-classification`:
 
-    ```bash
-    cd "$(find . -type d -name "image-classification")"
+    ```sh
+    $ cd "$(find . -type d -name "image-classification")"
     ```
 
 3. Create a Python virtual environment `venv` and install the required dependencies:
 
-    ```bash
-    python -m venv venv
+    ```sh
+    $ python -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
     ```
@@ -62,8 +62,8 @@ To install this project, open your Terminal and follow these steps:
 
 To start the application, run the `image_classification.py` file:
 
-   ```bash
-   python image_classification.py
+   ```sh
+   $ python image_classification.py
    ```
 This application will run locally at `http://127.0.0.1:7860`:
 
